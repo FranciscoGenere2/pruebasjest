@@ -85,7 +85,7 @@ const Detpedido = () => {
 //4
 const Detpedido1 = require('../menu/detpedido');
 // Simula el componente Detpedido
-jest.mock('../menu/Detpedido', () => {
+jest.mock('../menu/detpedido', () => {
     return {
       __esModule: true,
       default: jest.fn(),
